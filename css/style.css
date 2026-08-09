@@ -74,6 +74,8 @@ p{margin:0 0 1em}
 .sect--dark .btn--ghost{border-color:rgba(255,255,255,.5)}
 .sect .btn--main{background:var(--brown);color:var(--sign)}
 .sect .btn--main:hover{background:var(--brown-2)}
+.sect--dark .btn--main{background:var(--sign);color:var(--brown)}
+.sect--dark .btn--main:hover{background:#fff}
 
 .rate{display:flex;align-items:center;gap:14px;margin-top:34px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2);max-width:430px}
 .rate__num{font-family:var(--serif);font-size:42px;line-height:1;color:var(--sign)}
@@ -130,7 +132,7 @@ p{margin:0 0 1em}
 .price li em{display:block;font-style:normal;font-size:13.5px;color:var(--muted)}
 .price li b{white-space:nowrap;font-family:var(--serif);font-size:18px;color:var(--brown)}
 .m--photo{margin-top:14px}
-.m--photo img{margin:0 22px 22px;border-radius:10px;max-width:520px}
+.m--photo img{margin:0 22px 22px;border-radius:10px;width:min(520px,calc(100% - 44px))}
 
 /* ---------- gallery ---------- */
 .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
